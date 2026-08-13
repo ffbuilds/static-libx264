@@ -5,7 +5,7 @@
 # bump: x264 after ./hashupdate Dockerfile X264 $LATEST
 # bump: x264 link "Source diff $CURRENT..$LATEST" https://code.videolan.org/videolan/x264/-/compare/$CURRENT...$LATEST
 ARG X264_URL="https://code.videolan.org/videolan/x264.git"
-ARG X264_VERSION=baee400fa9ced6f5481a728138fed6e867b0ff7f
+ARG X264_VERSION=b35605ace3ddf7c1a5d67a2eb553f034aef41d55
 
 # Must be specified
 ARG ALPINE_VERSION
